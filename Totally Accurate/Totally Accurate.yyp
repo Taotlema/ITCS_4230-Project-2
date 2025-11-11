@@ -35,12 +35,16 @@
   },
   "name":"Totally Accurate",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
+    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
