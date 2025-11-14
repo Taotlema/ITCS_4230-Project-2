@@ -1,1 +1,1 @@
-data = obj_battle_switcher.player.data
+data = obj_battle_switcher.player_data

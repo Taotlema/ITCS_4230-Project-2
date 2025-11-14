@@ -1,3 +1,3 @@
 if (room != rm_battle)
 
-alarm[0] = 60
+alarm[0] = 120

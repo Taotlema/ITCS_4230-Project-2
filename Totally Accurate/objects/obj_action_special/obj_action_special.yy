@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_button_heavy",
+    "path":"sprites/spr_button_heavy/spr_button_heavy.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
