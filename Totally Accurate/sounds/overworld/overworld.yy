@@ -1,17 +1,15 @@
 {
-  "$GMSound":"v2",
+  "$GMSound":"",
   "%Name":"overworld",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "bitRate":128,
   "compression":0,
-  "compressionQuality":4,
   "conversionMode":0,
   "duration":90.69714,
-  "exportDir":"",
   "name":"overworld",
   "parent":{
     "name":"Sounds",
@@ -22,5 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"overworld.mp3",
+  "type":0,
   "volume":1.0,
 }

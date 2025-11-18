@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Totally Accurate",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Totally Accurate",
   "resources":[
@@ -69,6 +69,7 @@
     {"id":{"name":"obj_to_be_continued","path":"objects/obj_to_be_continued/obj_to_be_continued.yy",},},
     {"id":{"name":"obj_volumedown","path":"objects/obj_volumedown/obj_volumedown.yy",},},
     {"id":{"name":"obj_volumeup","path":"objects/obj_volumeup/obj_volumeup.yy",},},
+    {"id":{"name":"obj_win_screen","path":"objects/obj_win_screen/obj_win_screen.yy",},},
     {"id":{"name":"overworld_music","path":"objects/overworld_music/overworld_music.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"id":{"name":"rm_characterselection","path":"rooms/rm_characterselection/rm_characterselection.yy",},},
