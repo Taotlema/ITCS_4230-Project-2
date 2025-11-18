@@ -1,5 +1,11 @@
 # ITCS 4230 Project 2: Totally Accurate
 
+## Game Instructions
+
+## Game Walkthrough
+
+## Cheat Codes
+
 ## Contributors
 ### Ayemhenre Isikhuemhen
 **Computer Science Student** at University of North Carolina at Charlotte | Class of 2026<br>
@@ -19,3 +25,8 @@ Contacts: yxia6@charlotte.edu | github.com/YanchenXia
 
 ## License
 CC0-1.0, CC-BY-4.0, and CC-BY-SA-4.0 are open licenses used for non-software material ranging from datasets to videos. Note that Creative Commons does not recommend its licenses be used for software or hardware.
+
+**Digital Art Assests:** Hunter Iler, November 2025, Digital(Procreate)  
+**SFX/Music Assests:** Pixabay
+
+
