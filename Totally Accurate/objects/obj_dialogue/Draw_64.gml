@@ -8,7 +8,7 @@ draw_sprite_stretched(spr_6, 0, _dx, _dy, _boxw, _boxh)
 _dx += 16
 _dy += 16
 
-draw_set_font(fnt_button)
+draw_set_font(fnt_text)
 
 var _name = messages[current_message].name
 draw_set_color(global.char_colors[$ _name])
