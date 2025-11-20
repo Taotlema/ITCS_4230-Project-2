@@ -15,7 +15,7 @@ char_colors = {
 welcome_dialogue = [
 {
 	name: "Sun Tzu",
-	msg: "Greetings, warrior. Someone once said: ‘Know thy enemy and know thyself.’"
+	msg: "Greetings, warrior. Someone once said: ‘Know thy enemy and know thyself.’ Press Space to Continue"
 },
 {
 	name: "Sun Tzu",
