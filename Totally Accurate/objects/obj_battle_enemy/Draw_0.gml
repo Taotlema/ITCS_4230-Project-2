@@ -1,9 +1,24 @@
-draw_self()
+// Highlight if hovered during targeting
+var _alpha = 1
+if(is_hovered) {
+    _alpha = 0.7  // Dim when hovering
+}
 
-var _x = xstart - 10
-var _y = ystart + 25
-var _w = 40
-var _h = 8
+draw_sprite_ext(sprite_index, 0, x + sprite_offset, y, 1, 1, 0, c_white, 1)
 
+// Draw targeting indicator
+if(is_hovered && obj_battle_manager.targeting_mode) {
+    draw_set_color(c_yellow)
+    draw_rectangle(x - 5, y - 5, x + sprite_width + 5, y + sprite_height + 5, true)
+    draw_set_color(c_white)
+}
+
+// HP bar below sprite (centered with sprite)
+var _x = x + (sprite_width/2) - 10  // Center the bar under sprite
+var _y = y + sprite_height + 2
+var _w = 20
+var _h = 3
+
+// HP bar
 draw_sprite_stretched(spr_box, 0, _x, _y, _w, _h)
-draw_sprite_stretched_ext(spr_box, 1, _x, _y, _w * (data.hp / data.hp_total), _h, c_red, 1)
+draw_sprite_stretched_ext(spr_box, 1, _x, _y, _w * (displayed_hp / data.hp_total), _h, c_red, 1)

@@ -1,2 +1,8 @@
-data = obj_battle_switcher.enemy_data
-sprite_index = data.sprite_index
+enemy_index = 0  // Will be set when created
+data = {}
+sprite_index = spr_enemy1
+xstart = x
+ystart = y
+sprite_offset = 0
+is_hovered = false 
+displayed_hp = 0

@@ -1,5 +1,4 @@
-x -= 2
-
-if(x > xstart){
+sprite_offset -= 2
+if(sprite_offset > 0){
 	alarm[1] = 1
 }

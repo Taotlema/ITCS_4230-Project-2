@@ -1,15 +1,20 @@
-obj_battle_enemy.data.hp -= damage_to_enemy
-
-if(check_for_end()){
-	alarm[2] = 60
-}else{
-	alarm[1] = 60
-	
-	obj_battle_enemy.alarm[0] = 30
+// Find the target enemy and damage it (only if targeting an enemy)
+if(variable_instance_exists(id, "target_enemy")) {
+    with(obj_battle_enemy) {
+        if(enemy_index == other.target_enemy) {
+            data.hp -= other.damage_to_enemy
+        }
+    }
 }
 
-obj_battle_player.data.charge += 0.4
+if(check_for_end()){
+    alarm[2] = 60
+} else {
+    next_turn()
+}
 
-if(obj_battle_player.data.charge > 1){
-	obj_battle_player.data.charge = 1
+// Add to shared party charge bar
+party_charge += 0.15
+if(party_charge > 1){
+    party_charge = 1
 }

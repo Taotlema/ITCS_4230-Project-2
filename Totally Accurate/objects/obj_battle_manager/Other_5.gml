@@ -1,0 +1,1 @@
+part_system_destroy(healing_particle_system)

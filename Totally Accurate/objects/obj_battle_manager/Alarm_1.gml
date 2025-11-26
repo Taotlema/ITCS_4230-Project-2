@@ -1,8 +1,13 @@
-var _enemy_damage = obj_battle_enemy.data.damage * random_range(1, 2)
-obj_battle_player.data.hp -= _enemy_damage
+// Get current enemy that's attacking
+var _current_turn = turn_order[current_turn_index]
+var _attacking_enemy = noone
 
-enemy_turn = 0
-
-if(check_for_end()){
-	alarm[2] = 60
+with(obj_battle_enemy) {
+    if(enemy_index == _current_turn.index) {
+        _attacking_enemy = id
+        alarm[0] = 10  // Trigger enemy attack animation
+    }
 }
+
+
+alarm[3] = 30  // Delay before dealing damage and ending turn
