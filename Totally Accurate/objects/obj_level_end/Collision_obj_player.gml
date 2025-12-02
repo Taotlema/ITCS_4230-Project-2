@@ -1,1 +1,0 @@
-room_goto(rm_to_be_contined)
