@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_1",
-    "path":"sprites/spr_1/spr_1.yy",
+    "name":"spr_zulu_idle",
+    "path":"sprites/spr_zulu_idle/spr_zulu_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
