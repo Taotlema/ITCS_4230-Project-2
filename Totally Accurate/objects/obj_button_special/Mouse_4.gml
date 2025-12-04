@@ -1,3 +1,10 @@
+y = ystart + 4 
+
+audio_play_sound(sfx_click, 1, false)
+
+alarm[0] = 10
+
+
 switch (button_type) {
     case "fullscreen":
         window_set_fullscreen(!window_get_fullscreen());

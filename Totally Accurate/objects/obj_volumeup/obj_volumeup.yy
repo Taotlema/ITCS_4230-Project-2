@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_volumedown",
+    "path":"sprites/spr_volumedown/spr_volumedown.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
