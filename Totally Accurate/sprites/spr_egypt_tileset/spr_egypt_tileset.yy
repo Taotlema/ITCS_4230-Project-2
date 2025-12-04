@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_egypt_tileset",
   "bboxMode":0,
   "bbox_bottom":699,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9ebb3565-893d-43de-a911-dfa6eb027b81","name":"9ebb3565-893d-43de-a911-dfa6eb027b81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9ebb3565-893d-43de-a911-dfa6eb027b81","name":"9ebb3565-893d-43de-a911-dfa6eb027b81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
