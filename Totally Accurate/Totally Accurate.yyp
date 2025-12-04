@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Totally Accurate",
   "resources":[
@@ -147,6 +147,8 @@
     {"id":{"name":"spr_russia_tileset","path":"sprites/spr_russia_tileset/spr_russia_tileset.yy",},},
     {"id":{"name":"spr_talk","path":"sprites/spr_talk/spr_talk.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
+    {"id":{"name":"spr_volumedown","path":"sprites/spr_volumedown/spr_volumedown.yy",},},
+    {"id":{"name":"spr_volumeup","path":"sprites/spr_volumeup/spr_volumeup.yy",},},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
     {"id":{"name":"spr_zulu_attack","path":"sprites/spr_zulu_attack/spr_zulu_attack.yy",},},
     {"id":{"name":"spr_zulu_hurt","path":"sprites/spr_zulu_hurt/spr_zulu_hurt.yy",},},
