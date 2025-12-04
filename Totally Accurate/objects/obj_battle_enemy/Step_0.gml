@@ -51,4 +51,5 @@ if(data.hp <= 0 && current_sprite != data.sprite_death) {
 if(current_sprite == data.sprite_death && image_index >= image_number - 1) {
     image_speed = 0  // Stop animating
     image_index = image_number - 1  // Stay on last frame
+	instance_destroy()
 }
