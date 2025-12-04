@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_npc_egypt",
   "bboxMode":0,
   "bbox_bottom":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b709e60f-2d37-4a4a-ae9e-2ac74f7211ca","name":"b709e60f-2d37-4a4a-ae9e-2ac74f7211ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b709e60f-2d37-4a4a-ae9e-2ac74f7211ca","name":"b709e60f-2d37-4a4a-ae9e-2ac74f7211ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
