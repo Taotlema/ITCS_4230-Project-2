@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_egypt_background",
+  "%Name":"spr_china_battle",
   "bboxMode":0,
   "bbox_bottom":539,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c4241b75-4618-48c9-b709-eb2cf6fbecfd","name":"c4241b75-4618-48c9-b709-eb2cf6fbecfd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"97826f9d-a014-4706-ab95-16ee080f68d6","name":"97826f9d-a014-4706-ab95-16ee080f68d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":540,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d1201c13-1864-47fa-a3f7-91a3662db187","blendMode":0,"displayName":"default","isLocked":false,"name":"d1201c13-1864-47fa-a3f7-91a3662db187","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0b6fc55c-8eb3-4ca7-86aa-e50af0c2d98d","blendMode":0,"displayName":"default","isLocked":false,"name":"0b6fc55c-8eb3-4ca7-86aa-e50af0c2d98d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_egypt_background",
+  "name":"spr_china_battle",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Egypt",
-    "path":"folders/Sprites/Egypt.yy",
+    "name":"Ancient China",
+    "path":"folders/Sprites/Ancient China.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_egypt_background",
+    "%Name":"spr_china_battle",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_egypt_background",
+    "name":"spr_china_battle",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c4241b75-4618-48c9-b709-eb2cf6fbecfd","path":"sprites/spr_egypt_background/spr_egypt_background.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"246a96b2-9bf9-4153-94f0-5eb463200365","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97826f9d-a014-4706-ab95-16ee080f68d6","path":"sprites/spr_china_battle/spr_china_battle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a36a1b6e-b848-400a-8bdd-d16e9f0948f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
