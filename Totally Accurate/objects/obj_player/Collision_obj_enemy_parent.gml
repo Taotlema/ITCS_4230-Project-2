@@ -10,14 +10,18 @@ _switcher.enemy_data = [
         hp_total: other.hp_total,
         damage: other.damage,
         speed_stat: other.speed_stat,
-        sprite_index: other.sprite_index
+        sprite_index: other.sprite_index,
+        sprite_attack: other.sprite_attack,  
+		sprite_death: other.sprite_death
     },
     {
         hp: other.hp,
         hp_total: other.hp_total,
         damage: other.damage,
         speed_stat: other.speed_stat,
-        sprite_index: other.sprite_index
+        sprite_index: other.sprite_index,
+        sprite_attack: other.sprite_attack, 
+		sprite_death: other.sprite_death 
     }
 ]
 
@@ -26,6 +30,7 @@ _switcher.enemy_object = other.object_index
 _switcher.enemy_x = other.x
 _switcher.enemy_y = other.y
 
+// Destroy the enemy now
 with(other) {
     instance_destroy()
 }

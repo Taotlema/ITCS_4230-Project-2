@@ -19,12 +19,20 @@ if(flash_alpha > 0) {
     flash_alpha -= 0.05
 }
 
-// Smooth HP bar animation - lerp displayed_hp toward actual hp
+// Smooth HP bar animation
 if(data.displayed_hp != data.hp) {
     data.displayed_hp = lerp(data.displayed_hp, data.hp, 0.15)
     
-    // Snap to actual value when close enough
     if(abs(data.displayed_hp - data.hp) < 0.5) {
         data.displayed_hp = data.hp
+    }
+}
+
+// Handle animation timer
+if(animation_timer > 0) {
+    animation_timer--
+    if(animation_timer == 0) {
+        // Return to idle
+        current_sprite = data.sprite
     }
 }

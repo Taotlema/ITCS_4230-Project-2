@@ -1,6 +1,12 @@
-sprite_offset -= 2  // Move left (negative for enemy)
-if(sprite_offset < -20){  // Stop after moving 20 pixels left
-	alarm[1] = 1
-}else{
-	alarm[0] = 1
+sprite_offset -= 2
+if(sprite_offset < -20){
+    alarm[1] = 1
+    
+    // Switch to attack sprite
+    if(variable_struct_exists(data, "sprite_attack")) {
+        current_sprite = data.sprite_attack
+        image_index = 0
+    }
+} else {
+    alarm[0] = 1
 }

@@ -8,7 +8,8 @@ for(var i = 0; i < array_length(party); i++) {
 }
 
 if(_all_dead) {
-    room_goto(rm_lose) 
+    room_goto(rm_lose)  // Go to lose screen
 } else {
+    // Won - go to win screen (enemy destruction handled there)
     room_goto(rm_win)
 }

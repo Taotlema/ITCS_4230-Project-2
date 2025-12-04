@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1_egypt",
-    "path":"sprites/spr_enemy1_egypt/spr_enemy1_egypt.yy",
+    "name":"spr_7",
+    "path":"sprites/spr_7/spr_7.yy",
   },
   "spriteMaskId":null,
   "visible":true,

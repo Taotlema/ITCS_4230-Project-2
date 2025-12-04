@@ -5,18 +5,18 @@ var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
 
-//if(_hor != 0 and _ver != 0){
-	//if(_ver > 0) sprite_index = "walking down"
-	//else if (_ver < 0) sprite_index = "walking up"
-	//else if (_her > 0) sprite_index = "walking right"
-	//else if (_her < 0) sprite_index = "walking left"
-//}else{
-	//if(sprite_index == "walking right") sprite_index = "walking right idle"
-	// not finished, lack sprite
-//}
+// Change sprite based on movement
+if(_hor != 0 || _ver != 0) {
+    // Moving - use walk sprite
+    sprite_index = spr_zulu_walk
+} else {
+    // Idle - use idle sprite
+    sprite_index = spr_zulu_idle
+}
+
 
 if(hp <= 0){
-	game_restart()
+    game_restart()
 }
 
 // Restore party_charge from battle if switcher exists

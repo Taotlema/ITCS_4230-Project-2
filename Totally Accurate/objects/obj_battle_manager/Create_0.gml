@@ -38,7 +38,7 @@ array_sort(turn_order, function(a, b) {
 
 current_turn_index = 0  // Track position in turn order
 
-
+// FIND FIRST ALIVE CHARACTER TO STAR
 for(var i = 0; i < array_length(turn_order); i++) {
     var _turn = turn_order[i]
     var _is_alive = false
@@ -141,20 +141,22 @@ next_turn = function(){
     }
 }
 
-// Create 3 party member instances
+// Create 3 party member instances (only first 3)
 for(var i = 0; i < min(3, array_length(party)); i++) {
-    var _player = instance_create_depth(80, 30 + (i * 40), 0, obj_battle_player)
+    var _player = instance_create_depth(10 + (i * 100), 340, 0, obj_battle_player)  // Changed position 
     _player.party_index = i
     _player.data = party[i]
     _player.sprite_index = party[i].sprite
+    _player.current_sprite = party[i].sprite
 }
 
 // Create enemy instances
 for(var i = 0; i < array_length(enemies); i++) {
-    var _enemy = instance_create_depth(240, 40 + (i * 50), 0, obj_battle_enemy)
+    var _enemy = instance_create_depth(700 + (i * 100), 340, 0, obj_battle_enemy)  // Changed position 
     _enemy.enemy_index = i
     _enemy.data = enemies[i]
     _enemy.sprite_index = enemies[i].sprite_index
+    _enemy.current_sprite = enemies[i].sprite_index
 }
 
 start_targeting = function(_damage, _character_or_type, _target_type) {
@@ -168,6 +170,7 @@ execute_attack = function(_target_index) {
     targeting_mode = false
     
     var _character = pending_special_character
+    var _current_turn = turn_order[current_turn_index]
     
     // Execute different attacks based on type
     if(_character == "normal") {
@@ -179,38 +182,51 @@ execute_attack = function(_target_index) {
         player_attack(pending_attack_damage, _target_index)
         
     } else if(_character == "cleopatra") {
-    // Cleopatra: Heal one ally
-    party[_target_index].hp += 50  // Heal amount
-    if(party[_target_index].hp > party[_target_index].hp_total) {
-        party[_target_index].hp = party[_target_index].hp_total
-    }
-    
-    // Spawn healing particles on target
-    var _target_player = noone
-    with(obj_battle_player) {
-        if(party_index == _target_index) {
-            _target_player = id
+        // Cleopatra: Heal one ally
+        party[_target_index].hp += 50  // Heal amount
+        if(party[_target_index].hp > party[_target_index].hp_total) {
+            party[_target_index].hp = party[_target_index].hp_total
         }
-    }
-    
-    if(_target_player != noone) {
-        // Burst of healing sparkles
-        part_particles_create(healing_particle_system, _target_player.x + _target_player.sprite_width/2, _target_player.y + _target_player.sprite_height/2, healing_particle, 20)
-    }
-    
-    // Move to next turn after healing
-    enemy_turn = 1
-    alarm[0] = 40
         
-   } else if(_character == "napoleon") {
-    // Napoleon: Grant protection to only himself (attacks will miss)
-    var _current_turn = turn_order[current_turn_index]
-    party[_current_turn.index].napoleon_protected = true
-    
-    // Move to next turn
-    enemy_turn = 1
-    alarm[0] = 40
-}
+        // Animate Cleopatra
+        with(obj_battle_player) {
+            if(party_index == _current_turn.index) {
+                alarm[0] = 10  // Trigger animation
+            }
+        }
+        
+        // Spawn healing particles on target
+        var _target_player = noone
+        with(obj_battle_player) {
+            if(party_index == _target_index) {
+                _target_player = id
+            }
+        }
+        
+        if(_target_player != noone) {
+            // Burst of healing sparkles
+            part_particles_create(healing_particle_system, _target_player.x + _target_player.sprite_width/2, _target_player.y + _target_player.sprite_height/2, healing_particle, 20)
+        }
+        
+        // Move to next turn after healing
+        enemy_turn = 1
+        alarm[0] = 40
+        
+    } else if(_character == "napoleon") {
+        // Napoleon: Grant protection to only himself (attacks will miss)
+        party[_current_turn.index].napoleon_protected = true
+        
+        // Animate Napoleon
+        with(obj_battle_player) {
+            if(party_index == _current_turn.index) {
+                alarm[0] = 10  // Trigger animation
+            }
+        }
+        
+        // Move to next turn
+        enemy_turn = 1
+        alarm[0] = 40
+    }
 }
 
 // Create particle system for healing effect
@@ -220,7 +236,7 @@ part_system_depth(healing_particle_system, -1000)
 // Create healing particle type
 healing_particle = part_type_create()
 part_type_shape(healing_particle, pt_shape_star)
-part_type_size(healing_particle, 0.1, 0.3, -0.01, 0)
+part_type_size(healing_particle, 0.3, 0.6, -0.01, 0)  
 part_type_color1(healing_particle, c_lime)
 part_type_alpha3(healing_particle, 1, 0.8, 0)
 part_type_speed(healing_particle, 0.5, 1.5, -0.05, 0)

@@ -28,3 +28,27 @@ if(displayed_hp != data.hp) {
         displayed_hp = data.hp
     }
 }
+
+// Handle animation timer
+if(animation_timer > 0) {
+    animation_timer--
+    if(animation_timer == 0) {
+        // Return to idle
+        current_sprite = data.sprite_index
+    }
+}
+
+// Check for death and play death animation
+if(data.hp <= 0 && current_sprite != data.sprite_death) {
+    if(variable_struct_exists(data, "sprite_death")) {
+        current_sprite = data.sprite_death
+        image_index = 0
+        image_speed = 0.5  // Control animation speed
+    }
+}
+
+// Stop death animation on last frame
+if(current_sprite == data.sprite_death && image_index >= image_number - 1) {
+    image_speed = 0  // Stop animating
+    image_index = image_number - 1  // Stay on last frame
+}

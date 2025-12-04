@@ -1,8 +1,9 @@
-party_index = 0  // This will be set when created
-data = {}  // This will be set when created
+party_index = 0 // This will be set when created
+data = {}
 xstart = x
 ystart = y
-sprite_offset = 0  
+sprite_offset = 0
 is_hovered = false
-
-flash_alpha = 0 
+flash_alpha = 0
+current_sprite = sprite_index  // tracks current animation
+animation_timer = 0  // controls animation duration

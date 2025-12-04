@@ -25,7 +25,7 @@ if(_attacking_enemy != noone) {
         // Check if target is protected by Napoleon
         if(party[_target].napoleon_protected) {
             // Attack misses!
-            party[_target].napoleon_protected = false  // Remove protection after use
+            party[_target].napoleon_protected = false
             
             // Show "MISSED!" text
             var _target_player = noone
@@ -40,19 +40,20 @@ if(_attacking_enemy != noone) {
                 _miss_text.text = "MISSED!"
                 _miss_text.color = c_yellow
             }
-			} else {
-			// Normal damage
-			party[_target].hp -= _enemy_damage
-    
-		    //Trigger white flash on damaged character
-			with(obj_battle_player) {
-			if(party_index == _target) {
-            flash_alpha = 1  // Start flash at full intensity
-				}
-			}
-		}
+        } else {
+            // Normal damage
+            party[_target].hp -= _enemy_damage
+            
+            // Trigger white flash AND hurt animation
+            with(obj_battle_player) {
+                if(party_index == _target) {
+                    flash_alpha = 1
+                    alarm[2] = 5  // Trigger hurt animation after slight delay
+                }
+            }
+        }
     }
 }
 
-// Another delay before ending turn and lighting up buttons
+// Another delay before ending turn
 alarm[4] = 30
