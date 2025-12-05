@@ -15,7 +15,7 @@ char_colors = {
 welcome_dialogue = [
 {
 	name: "Sun Tzu",
-	msg: "Greetings, warrior. Someone once said: ‘Know thy enemy and know thyself.’ Press Space to Continue"
+	msg: "Greetings, warrior. Someone once said: Know thy enemy and know thyself. Press Space to Continue"
 },
 {
 	name: "Sun Tzu",
@@ -27,7 +27,7 @@ welcome_dialogue = [
 },
 {
 	name: "Sun Tzu",
-	msg:"Unless you don’t. Then you will simply stand there, alone, but I mean nothing really changed did it?"
+	msg:"Unless you dont. Then you will simply stand there, alone, but I mean nothing really changed did it?"
 },
 {
 	name: "Sun Tzu",
@@ -35,7 +35,7 @@ welcome_dialogue = [
 },
 {
 	name: "Sun Tzu",
-	msg:" I call it ‘light’ because that’s about how hard you seem capable of hitting."
+	msg:" I call it  light  because thats about how hard you seem capable of hitting."
 },
 {
 	name: "Sun Tzu",
@@ -51,7 +51,7 @@ welcome_dialogue = [
 },
 {
 	name: "Sun Tzu",
-	msg:"I swear, one of these days I’m getting transferred to a different game, instead of teaching these idiots"
+	msg:"I swear, one of these days Im getting transferred to a different game, instead of teaching these idiots"
 },
 ]
 
