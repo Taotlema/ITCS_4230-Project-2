@@ -143,7 +143,7 @@ next_turn = function(){
 
 // Create 3 party member instances (only first 3)
 for(var i = 0; i < min(3, array_length(party)); i++) {
-    var _player = instance_create_depth(10 + (i * 100), 340, 0, obj_battle_player)  // Changed position 
+    var _player = instance_create_depth(60 + (i * 100), 445, 0, obj_battle_player)  // Changed position 
     _player.party_index = i
     _player.data = party[i]
     _player.sprite_index = party[i].sprite
@@ -152,7 +152,7 @@ for(var i = 0; i < min(3, array_length(party)); i++) {
 
 // Create enemy instances
 for(var i = 0; i < array_length(enemies); i++) {
-    var _enemy = instance_create_depth(700 + (i * 100), 340, 0, obj_battle_enemy)  // Changed position 
+    var _enemy = instance_create_depth(700 + (i * 100), 370, 0, obj_battle_enemy)  // Changed position 
     _enemy.enemy_index = i
     _enemy.data = enemies[i]
     _enemy.sprite_index = enemies[i].sprite_index

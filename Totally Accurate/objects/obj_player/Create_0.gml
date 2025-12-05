@@ -1,4 +1,4 @@
-move_speed = 1
+move_speed = 1.5
 tilemap = layer_tilemap_get_id("Tiles_Col")
 hp = 10
 hp_total = hp
@@ -87,3 +87,7 @@ party = [
         napoleon_protected: false
     }
 ]
+
+if(view_enabled) {
+    camera_set_view_pos(view_camera[0], x - 320, y - 180)
+}

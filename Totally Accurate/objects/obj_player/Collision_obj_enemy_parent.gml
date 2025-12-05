@@ -11,8 +11,8 @@ _switcher.enemy_data = [
         damage: other.damage,
         speed_stat: other.speed_stat,
         sprite_index: other.sprite_index,
-        sprite_attack: other.sprite_attack,  
-		sprite_death: other.sprite_death
+        sprite_attack: other.sprite_attack,
+        sprite_death: other.sprite_death
     },
     {
         hp: other.hp,
@@ -20,12 +20,25 @@ _switcher.enemy_data = [
         damage: other.damage,
         speed_stat: other.speed_stat,
         sprite_index: other.sprite_index,
-        sprite_attack: other.sprite_attack, 
-		sprite_death: other.sprite_death 
+        sprite_attack: other.sprite_attack,
+        sprite_death: other.sprite_death
     }
 ]
 
-_switcher.original_room = rm_main
+// Determine which battle room to go to based on current room
+var _battle_room = rm_battle  // Default
+var _original_room = room  // Store current room
+show_debug_message("Going from " + room_get_name(_original_room) + " to " + room_get_name(_battle_room))
+
+if(room == rm_russia) {
+    _battle_room = rm_battle_russia
+} else if(room == rm_china) {
+    _battle_room = rm_battle_china
+} else if(room == rm_main) {
+    _battle_room = rm_battle  // Egypt battle
+}
+
+_switcher.original_room = _original_room
 _switcher.enemy_object = other.object_index
 _switcher.enemy_x = other.x
 _switcher.enemy_y = other.y
@@ -35,4 +48,4 @@ with(other) {
     instance_destroy()
 }
 
-room_goto(rm_battle)
+room_goto(_battle_room)

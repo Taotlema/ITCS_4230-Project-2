@@ -33,12 +33,12 @@ if(is_hovered && obj_battle_manager.targeting_mode && obj_battle_manager.targeti
 draw_set_halign(fa_center)
 draw_set_font(-1)
 var _name_scale = 0.6  
-draw_text_transformed(x + sprite_width/2, y - 8, data.name, _name_scale, _name_scale, 0)  // Closer to sprite
+draw_text_transformed(x, y - 70, data.name, _name_scale, _name_scale, 0)  
 draw_set_halign(fa_left)
 
-// HP bar (smaller)
-var _x = x + (sprite_width/2) - 25  
-var _y = y + sprite_height + 1  // Closer to sprite
+// HP bar below sprite (for Middle Center origin)
+var _x = x - 25  // Center the bar (half of 50 width)
+var _y = y + 55  // Below the sprite center
 var _w = 50  
 var _h = 5  
 

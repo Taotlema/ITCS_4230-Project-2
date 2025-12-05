@@ -1,8 +1,9 @@
 if(keyboard_check_pressed(vk_space)) {
     if(part_system_exists(confetti_system)) {
-        part_system_destroy(confetti_system)  // Clean up before leaving
+        part_system_destroy(confetti_system)
     }
-    room_goto(rm_main)
+    // Returns to whatever room the battle was triggered from
+    room_goto(obj_battle_switcher.original_room)
 }
 
 // Spawn confetti continuously from top (only if system exists)
