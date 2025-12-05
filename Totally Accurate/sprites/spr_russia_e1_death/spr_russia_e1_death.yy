@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_npc_egypt",
+  "%Name":"spr_russia_e1_death",
   "bboxMode":0,
   "bbox_bottom":0,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b709e60f-2d37-4a4a-ae9e-2ac74f7211ca","name":"b709e60f-2d37-4a4a-ae9e-2ac74f7211ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0ac27917-ab64-48e4-b0b4-bb818662260c","blendMode":0,"displayName":"default","isLocked":false,"name":"0ac27917-ab64-48e4-b0b4-bb818662260c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"57a093b3-af75-4b2b-8c09-b528361b1128","blendMode":0,"displayName":"default","isLocked":false,"name":"57a093b3-af75-4b2b-8c09-b528361b1128","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_npc_egypt",
+  "name":"spr_russia_e1_death",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Egypt",
-    "path":"folders/Sprites/Egypt.yy",
+    "name":"Russia",
+    "path":"folders/Sprites/Russia.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_npc_egypt",
+    "%Name":"spr_russia_e1_death",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_npc_egypt",
+    "name":"spr_russia_e1_death",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -70,7 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b709e60f-2d37-4a4a-ae9e-2ac74f7211ca","path":"sprites/spr_npc_egypt/spr_npc_egypt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b77dd126-4995-4551-aea0-25999bb18cde","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e6b32489-f1a9-45dc-9645-41047feb56c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

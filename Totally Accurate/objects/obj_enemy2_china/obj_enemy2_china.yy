@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy2",
+  "%Name":"obj_enemy2_china",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy2",
+  "name":"obj_enemy2_china",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"sprite_death","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy2_egypt_death","path":"sprites/spr_enemy2_egypt_death/spr_enemy2_egypt_death.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy2_egypt_death",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"sprite_attack","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy2_egypt_attack","path":"sprites/spr_enemy2_egypt_attack/spr_enemy2_egypt_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy2_egypt_attack",},

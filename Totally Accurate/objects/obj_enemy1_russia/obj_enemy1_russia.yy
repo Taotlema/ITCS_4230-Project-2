@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fullscreen",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_enemy1_russia",
+  "eventList":[],
   "managed":true,
-  "name":"obj_fullscreen",
+  "name":"obj_enemy1_russia",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy_parent",
+    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
