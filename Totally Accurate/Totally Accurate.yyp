@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Totally Accurate",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Totally Accurate",
   "resources":[
@@ -87,9 +87,8 @@
     {"id":{"name":"rm_battle_china","path":"rooms/rm_battle_china/rm_battle_china.yy",},},
     {"id":{"name":"rm_battle_russia","path":"rooms/rm_battle_russia/rm_battle_russia.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
-    {"id":{"name":"rm_characterselection","path":"rooms/rm_characterselection/rm_characterselection.yy",},},
+    {"id":{"name":"rm_china","path":"rooms/rm_china/rm_china.yy",},},
     {"id":{"name":"rm_credit","path":"rooms/rm_credit/rm_credit.yy",},},
-    {"id":{"name":"rm_levelselection","path":"rooms/rm_levelselection/rm_levelselection.yy",},},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"rm_russia","path":"rooms/rm_russia/rm_russia.yy",},},
@@ -168,14 +167,13 @@
     {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
-    {"roomId":{"name":"rm_levelselection","path":"rooms/rm_levelselection/rm_levelselection.yy",},},
-    {"roomId":{"name":"rm_characterselection","path":"rooms/rm_characterselection/rm_characterselection.yy",},},
     {"roomId":{"name":"rm_setting","path":"rooms/rm_setting/rm_setting.yy",},},
     {"roomId":{"name":"rm_credit","path":"rooms/rm_credit/rm_credit.yy",},},
     {"roomId":{"name":"rm_to_be_contined","path":"rooms/rm_to_be_contined/rm_to_be_contined.yy",},},
     {"roomId":{"name":"rm_russia","path":"rooms/rm_russia/rm_russia.yy",},},
     {"roomId":{"name":"rm_battle_russia","path":"rooms/rm_battle_russia/rm_battle_russia.yy",},},
     {"roomId":{"name":"rm_battle_china","path":"rooms/rm_battle_china/rm_battle_china.yy",},},
+    {"roomId":{"name":"rm_china","path":"rooms/rm_china/rm_china.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
