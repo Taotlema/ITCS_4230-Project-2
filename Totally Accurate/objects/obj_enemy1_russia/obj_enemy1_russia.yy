@@ -4,7 +4,13 @@
   "eventList":[],
   "managed":true,
   "name":"obj_enemy1_russia",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"speed_stat","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"9",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"sprite_attack","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_russia_e1_attack","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_russia_e1_attack",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"sprite_death","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_russia_e1_death","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_russia_e1_death",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
