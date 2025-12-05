@@ -35,10 +35,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_enemy2_egypt",
-    "path":"sprites/spr_enemy2_egypt/spr_enemy2_egypt.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

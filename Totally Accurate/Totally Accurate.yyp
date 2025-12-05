@@ -74,6 +74,7 @@
     {"id":{"name":"obj_lose_screen","path":"objects/obj_lose_screen/obj_lose_screen.yy",},},
     {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},},
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
+    {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_parentbutton","path":"objects/obj_parentbutton/obj_parentbutton.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_quitbutton","path":"objects/obj_quitbutton/obj_quitbutton.yy",},},

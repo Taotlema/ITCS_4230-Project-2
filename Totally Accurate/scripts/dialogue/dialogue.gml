@@ -54,3 +54,15 @@ welcome_dialogue = [
 	msg:"I swear, one of these days I’m getting transferred to a different game, instead of teaching these idiots"
 },
 ]
+
+
+end_dialogue = [
+{
+	name: "Sun Tzu",
+	msg:"This is the end, good luck."
+},
+{
+	name: "Sun Tzu",
+	msg:"If you cant win then you should probably quit the game"
+}
+]
