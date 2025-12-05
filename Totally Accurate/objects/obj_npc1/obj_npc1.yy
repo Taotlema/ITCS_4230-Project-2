@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_suntzu",
+    "path":"sprites/spr_suntzu/spr_suntzu.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

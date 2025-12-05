@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_8",
-    "path":"sprites/spr_8/spr_8.yy",
+    "name":"spr_portal",
+    "path":"sprites/spr_portal/spr_portal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
