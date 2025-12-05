@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_enemy1_egypt_attack",
   "bboxMode":0,
   "bbox_bottom":108,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a8c10154-a4fb-44b0-a6c6-71afc991d1b0","name":"a8c10154-a4fb-44b0-a6c6-71afc991d1b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6f1af22a-f465-48ed-9c9b-9f3aff430102","name":"6f1af22a-f465-48ed-9c9b-9f3aff430102","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"37e64dc4-eb67-4adc-bbb9-27307c30f8e9","name":"37e64dc4-eb67-4adc-bbb9-27307c30f8e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6a6c62e8-c8d6-464f-ba89-0e26bf144991","name":"6a6c62e8-c8d6-464f-ba89-0e26bf144991","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a1971e17-04f4-4739-b35a-cd6b19ced1a1","name":"a1971e17-04f4-4739-b35a-cd6b19ced1a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"3d64de72-802f-496f-b925-257b4cc04f05","name":"3d64de72-802f-496f-b925-257b4cc04f05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"1032500f-bb23-4f52-9443-14d0479648de","name":"1032500f-bb23-4f52-9443-14d0479648de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"018ab662-4395-4e2b-b85c-06b6efe75223","name":"018ab662-4395-4e2b-b85c-06b6efe75223","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a8c10154-a4fb-44b0-a6c6-71afc991d1b0","name":"a8c10154-a4fb-44b0-a6c6-71afc991d1b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6f1af22a-f465-48ed-9c9b-9f3aff430102","name":"6f1af22a-f465-48ed-9c9b-9f3aff430102","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"37e64dc4-eb67-4adc-bbb9-27307c30f8e9","name":"37e64dc4-eb67-4adc-bbb9-27307c30f8e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6a6c62e8-c8d6-464f-ba89-0e26bf144991","name":"6a6c62e8-c8d6-464f-ba89-0e26bf144991","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a1971e17-04f4-4739-b35a-cd6b19ced1a1","name":"a1971e17-04f4-4739-b35a-cd6b19ced1a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3d64de72-802f-496f-b925-257b4cc04f05","name":"3d64de72-802f-496f-b925-257b4cc04f05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1032500f-bb23-4f52-9443-14d0479648de","name":"1032500f-bb23-4f52-9443-14d0479648de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"018ab662-4395-4e2b-b85c-06b6efe75223","name":"018ab662-4395-4e2b-b85c-06b6efe75223","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,30 +77,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a8c10154-a4fb-44b0-a6c6-71afc991d1b0","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7040c549-4af5-4405-90f0-d1e31f94869c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6f1af22a-f465-48ed-9c9b-9f3aff430102","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"51937442-ff9c-4937-a0e8-103db0090186","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37e64dc4-eb67-4adc-bbb9-27307c30f8e9","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35008389-ed43-4464-9836-30a9492280e0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a6c62e8-c8d6-464f-ba89-0e26bf144991","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"602280fb-e09b-472a-88bd-c769c95c0529","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1971e17-04f4-4739-b35a-cd6b19ced1a1","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fef5b4d5-2d3a-472f-ba42-52a72f8aa973","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d64de72-802f-496f-b925-257b4cc04f05","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a864511b-328b-4870-8f6b-264e78e69ff9","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1032500f-bb23-4f52-9443-14d0479648de","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8b4408c7-fbbc-42ba-89c6-9dc630d2f008","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"018ab662-4395-4e2b-b85c-06b6efe75223","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4a224e4e-7a06-49e0-bff2-65bfabc10df0","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a8c10154-a4fb-44b0-a6c6-71afc991d1b0","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7040c549-4af5-4405-90f0-d1e31f94869c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6f1af22a-f465-48ed-9c9b-9f3aff430102","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"51937442-ff9c-4937-a0e8-103db0090186","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"37e64dc4-eb67-4adc-bbb9-27307c30f8e9","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"35008389-ed43-4464-9836-30a9492280e0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a6c62e8-c8d6-464f-ba89-0e26bf144991","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"602280fb-e09b-472a-88bd-c769c95c0529","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1971e17-04f4-4739-b35a-cd6b19ced1a1","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fef5b4d5-2d3a-472f-ba42-52a72f8aa973","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d64de72-802f-496f-b925-257b4cc04f05","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a864511b-328b-4870-8f6b-264e78e69ff9","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1032500f-bb23-4f52-9443-14d0479648de","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8b4408c7-fbbc-42ba-89c6-9dc630d2f008","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"018ab662-4395-4e2b-b85c-06b6efe75223","path":"sprites/spr_enemy1_egypt_attack/spr_enemy1_egypt_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4a224e4e-7a06-49e0-bff2-65bfabc10df0","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
