@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_russia_e2_attack",
   "bboxMode":0,
   "bbox_bottom":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
