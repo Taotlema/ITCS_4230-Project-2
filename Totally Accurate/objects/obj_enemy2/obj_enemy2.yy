@@ -7,6 +7,8 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"sprite_death","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy2_egypt_death","path":"sprites/spr_enemy2_egypt_death/spr_enemy2_egypt_death.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy2_egypt_death",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"sprite_attack","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy2_egypt_attack","path":"sprites/spr_enemy2_egypt_attack/spr_enemy2_egypt_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy2_egypt_attack",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
   ],
   "parent":{
     "name":"Enemies",
@@ -30,7 +32,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy2_egypt","path":"sprites/spr_enemy2_egypt/spr_enemy2_egypt.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy2_egypt","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy2_egypt","path":"sprites/spr_enemy2_egypt/spr_enemy2_egypt.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy2_egypt","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

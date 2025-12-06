@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_russia_e1_attack",
   "bboxMode":0,
   "bbox_bottom":115,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"08a21dd5-394d-4a5d-9ead-03c471a7bbdb","name":"08a21dd5-394d-4a5d-9ead-03c471a7bbdb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"dd3e19d2-3fc2-4436-ba6c-5adbb349b5c4","name":"dd3e19d2-3fc2-4436-ba6c-5adbb349b5c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f38fd219-c49b-4236-b5c5-006da692b2b6","name":"f38fd219-c49b-4236-b5c5-006da692b2b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d9e7a1a0-84b5-45d8-8bf3-0268aaeb86fb","name":"d9e7a1a0-84b5-45d8-8bf3-0268aaeb86fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f39e70a8-9bfa-4084-826f-cfa59ac93c8f","name":"f39e70a8-9bfa-4084-826f-cfa59ac93c8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"559807e7-5239-4786-b0c8-3a7b9e3e4320","name":"559807e7-5239-4786-b0c8-3a7b9e3e4320","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f33c0698-75b9-48de-8c04-cf23fc71fd4e","name":"f33c0698-75b9-48de-8c04-cf23fc71fd4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"08a21dd5-394d-4a5d-9ead-03c471a7bbdb","name":"08a21dd5-394d-4a5d-9ead-03c471a7bbdb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dd3e19d2-3fc2-4436-ba6c-5adbb349b5c4","name":"dd3e19d2-3fc2-4436-ba6c-5adbb349b5c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f38fd219-c49b-4236-b5c5-006da692b2b6","name":"f38fd219-c49b-4236-b5c5-006da692b2b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d9e7a1a0-84b5-45d8-8bf3-0268aaeb86fb","name":"d9e7a1a0-84b5-45d8-8bf3-0268aaeb86fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f39e70a8-9bfa-4084-826f-cfa59ac93c8f","name":"f39e70a8-9bfa-4084-826f-cfa59ac93c8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"559807e7-5239-4786-b0c8-3a7b9e3e4320","name":"559807e7-5239-4786-b0c8-3a7b9e3e4320","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f33c0698-75b9-48de-8c04-cf23fc71fd4e","name":"f33c0698-75b9-48de-8c04-cf23fc71fd4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,27 +76,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"08a21dd5-394d-4a5d-9ead-03c471a7bbdb","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7299d8f3-cd61-4432-9a97-686b85f25f2c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd3e19d2-3fc2-4436-ba6c-5adbb349b5c4","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"82cac8d8-d29f-4483-a752-6bdafc96c30b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f38fd219-c49b-4236-b5c5-006da692b2b6","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7c6b0fd6-2976-4c79-82b8-abc4a4812d66","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d9e7a1a0-84b5-45d8-8bf3-0268aaeb86fb","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9651618-9ed9-464d-94c6-34a5e1a3c0ce","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f39e70a8-9bfa-4084-826f-cfa59ac93c8f","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"58bb6c1e-e090-4e07-ac15-e56b0fc71745","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"559807e7-5239-4786-b0c8-3a7b9e3e4320","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9de071e0-a83c-4eb7-9347-38d6c9f41974","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f33c0698-75b9-48de-8c04-cf23fc71fd4e","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"38e91302-776d-4a14-8017-669ba826689e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"08a21dd5-394d-4a5d-9ead-03c471a7bbdb","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7299d8f3-cd61-4432-9a97-686b85f25f2c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd3e19d2-3fc2-4436-ba6c-5adbb349b5c4","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"82cac8d8-d29f-4483-a752-6bdafc96c30b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f38fd219-c49b-4236-b5c5-006da692b2b6","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7c6b0fd6-2976-4c79-82b8-abc4a4812d66","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d9e7a1a0-84b5-45d8-8bf3-0268aaeb86fb","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e9651618-9ed9-464d-94c6-34a5e1a3c0ce","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f39e70a8-9bfa-4084-826f-cfa59ac93c8f","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"58bb6c1e-e090-4e07-ac15-e56b0fc71745","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"559807e7-5239-4786-b0c8-3a7b9e3e4320","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9de071e0-a83c-4eb7-9347-38d6c9f41974","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f33c0698-75b9-48de-8c04-cf23fc71fd4e","path":"sprites/spr_russia_e1_attack/spr_russia_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"38e91302-776d-4a14-8017-669ba826689e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

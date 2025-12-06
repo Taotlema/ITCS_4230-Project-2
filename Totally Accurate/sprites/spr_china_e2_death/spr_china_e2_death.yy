@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_china_e2_death",
   "bboxMode":0,
   "bbox_bottom":126,
@@ -12,17 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e2ce8b07-57a1-42e3-a30b-0105aada9670","name":"e2ce8b07-57a1-42e3-a30b-0105aada9670","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"850ddd98-3114-439b-b493-36b4808e5223","name":"850ddd98-3114-439b-b493-36b4808e5223","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d744de4b-18ed-4bd9-b3e9-ad128ab1771e","name":"d744de4b-18ed-4bd9-b3e9-ad128ab1771e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"bdae5ade-d494-434b-800f-4275dfd21c5f","name":"bdae5ade-d494-434b-800f-4275dfd21c5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e084a774-8d29-4744-8e78-2d5bf80b4637","name":"e084a774-8d29-4744-8e78-2d5bf80b4637","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"082dca73-e819-4b8e-a2e9-dcc3d9cc70bb","name":"082dca73-e819-4b8e-a2e9-dcc3d9cc70bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"7317e6d9-2aae-47d1-b312-cb805d04a2a6","name":"7317e6d9-2aae-47d1-b312-cb805d04a2a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"bbbab0e6-8d5d-4de5-a344-80b6c8acb316","name":"bbbab0e6-8d5d-4de5-a344-80b6c8acb316","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d484ff26-8f38-4940-a52b-e5f4ed1c1c8e","name":"d484ff26-8f38-4940-a52b-e5f4ed1c1c8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"36e576c2-9860-4be3-bc20-d32d5ec274d6","name":"36e576c2-9860-4be3-bc20-d32d5ec274d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"18bfea20-bd11-4dbf-ad21-32f84b474f65","name":"18bfea20-bd11-4dbf-ad21-32f84b474f65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e2ce8b07-57a1-42e3-a30b-0105aada9670","name":"e2ce8b07-57a1-42e3-a30b-0105aada9670","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"850ddd98-3114-439b-b493-36b4808e5223","name":"850ddd98-3114-439b-b493-36b4808e5223","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d744de4b-18ed-4bd9-b3e9-ad128ab1771e","name":"d744de4b-18ed-4bd9-b3e9-ad128ab1771e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"bdae5ade-d494-434b-800f-4275dfd21c5f","name":"bdae5ade-d494-434b-800f-4275dfd21c5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e084a774-8d29-4744-8e78-2d5bf80b4637","name":"e084a774-8d29-4744-8e78-2d5bf80b4637","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"082dca73-e819-4b8e-a2e9-dcc3d9cc70bb","name":"082dca73-e819-4b8e-a2e9-dcc3d9cc70bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7317e6d9-2aae-47d1-b312-cb805d04a2a6","name":"7317e6d9-2aae-47d1-b312-cb805d04a2a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"bbbab0e6-8d5d-4de5-a344-80b6c8acb316","name":"bbbab0e6-8d5d-4de5-a344-80b6c8acb316","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d484ff26-8f38-4940-a52b-e5f4ed1c1c8e","name":"d484ff26-8f38-4940-a52b-e5f4ed1c1c8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"36e576c2-9860-4be3-bc20-d32d5ec274d6","name":"36e576c2-9860-4be3-bc20-d32d5ec274d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"18bfea20-bd11-4dbf-ad21-32f84b474f65","name":"18bfea20-bd11-4dbf-ad21-32f84b474f65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -80,39 +80,17 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2ce8b07-57a1-42e3-a30b-0105aada9670","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0c2af33d-0278-4113-af34-61cbec1e4608","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"850ddd98-3114-439b-b493-36b4808e5223","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a350f598-306d-437e-bd28-d4e4d25bc3f0","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d744de4b-18ed-4bd9-b3e9-ad128ab1771e","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"38df6d75-9a19-43c2-976a-fc7deb5de191","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdae5ade-d494-434b-800f-4275dfd21c5f","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2615f4ea-9a47-4fcf-a9eb-b3d033c7e931","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e084a774-8d29-4744-8e78-2d5bf80b4637","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0e92753e-0048-41de-9954-708234eaa26b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"082dca73-e819-4b8e-a2e9-dcc3d9cc70bb","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b263489d-242b-4095-af3e-7fd6b94c2c2b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7317e6d9-2aae-47d1-b312-cb805d04a2a6","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e2521526-14d5-433c-bd2f-55ce54b09c2e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbbab0e6-8d5d-4de5-a344-80b6c8acb316","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"08905405-662b-4be1-9d0d-18494a8bc70e","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d484ff26-8f38-4940-a52b-e5f4ed1c1c8e","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0f4fb199-b9f0-4d90-b10b-4bc785775c5a","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"36e576c2-9860-4be3-bc20-d32d5ec274d6","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f8fe25f2-dc8a-40f5-b28e-ff2514bbfdd4","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"18bfea20-bd11-4dbf-ad21-32f84b474f65","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"535e2458-38e8-42d6-a004-e63091f96fa7","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2ce8b07-57a1-42e3-a30b-0105aada9670","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0c2af33d-0278-4113-af34-61cbec1e4608","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"850ddd98-3114-439b-b493-36b4808e5223","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a350f598-306d-437e-bd28-d4e4d25bc3f0","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d744de4b-18ed-4bd9-b3e9-ad128ab1771e","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"38df6d75-9a19-43c2-976a-fc7deb5de191","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdae5ade-d494-434b-800f-4275dfd21c5f","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2615f4ea-9a47-4fcf-a9eb-b3d033c7e931","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e084a774-8d29-4744-8e78-2d5bf80b4637","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0e92753e-0048-41de-9954-708234eaa26b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"082dca73-e819-4b8e-a2e9-dcc3d9cc70bb","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b263489d-242b-4095-af3e-7fd6b94c2c2b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7317e6d9-2aae-47d1-b312-cb805d04a2a6","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e2521526-14d5-433c-bd2f-55ce54b09c2e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbbab0e6-8d5d-4de5-a344-80b6c8acb316","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"08905405-662b-4be1-9d0d-18494a8bc70e","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d484ff26-8f38-4940-a52b-e5f4ed1c1c8e","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0f4fb199-b9f0-4d90-b10b-4bc785775c5a","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"36e576c2-9860-4be3-bc20-d32d5ec274d6","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f8fe25f2-dc8a-40f5-b28e-ff2514bbfdd4","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"18bfea20-bd11-4dbf-ad21-32f84b474f65","path":"sprites/spr_china_e2_death/spr_china_e2_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"535e2458-38e8-42d6-a004-e63091f96fa7","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

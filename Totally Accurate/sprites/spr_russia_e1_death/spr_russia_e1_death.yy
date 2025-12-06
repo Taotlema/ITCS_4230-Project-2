@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_russia_e1_death",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,17 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f015e082-24a8-4fdb-b228-8ad8432d7587","name":"f015e082-24a8-4fdb-b228-8ad8432d7587","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"ac1092a9-c3bd-466b-b984-09c8fe6f4dec","name":"ac1092a9-c3bd-466b-b984-09c8fe6f4dec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8eec818a-53a5-4284-ab15-a3f039e71554","name":"8eec818a-53a5-4284-ab15-a3f039e71554","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"9183448d-ee96-4db6-a5f0-bc9da392865c","name":"9183448d-ee96-4db6-a5f0-bc9da392865c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"2fa2791d-8ca9-4062-b78a-9a33758655f7","name":"2fa2791d-8ca9-4062-b78a-9a33758655f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"01f087ec-3002-4577-ab5e-d253a65f0191","name":"01f087ec-3002-4577-ab5e-d253a65f0191","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a4a29a05-43f9-4704-b5ef-83e764377410","name":"a4a29a05-43f9-4704-b5ef-83e764377410","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"124a23f7-a447-4937-b0ef-b33f14aa3165","name":"124a23f7-a447-4937-b0ef-b33f14aa3165","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"48afe5ba-d0e9-4b59-911c-52fe52dd0f71","name":"48afe5ba-d0e9-4b59-911c-52fe52dd0f71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a538f0fe-0718-465c-8d5d-37d990e7b5bc","name":"a538f0fe-0718-465c-8d5d-37d990e7b5bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"403ccfa4-39d8-4aa5-9a10-3258234db2cd","name":"403ccfa4-39d8-4aa5-9a10-3258234db2cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f015e082-24a8-4fdb-b228-8ad8432d7587","name":"f015e082-24a8-4fdb-b228-8ad8432d7587","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ac1092a9-c3bd-466b-b984-09c8fe6f4dec","name":"ac1092a9-c3bd-466b-b984-09c8fe6f4dec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8eec818a-53a5-4284-ab15-a3f039e71554","name":"8eec818a-53a5-4284-ab15-a3f039e71554","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9183448d-ee96-4db6-a5f0-bc9da392865c","name":"9183448d-ee96-4db6-a5f0-bc9da392865c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2fa2791d-8ca9-4062-b78a-9a33758655f7","name":"2fa2791d-8ca9-4062-b78a-9a33758655f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"01f087ec-3002-4577-ab5e-d253a65f0191","name":"01f087ec-3002-4577-ab5e-d253a65f0191","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a4a29a05-43f9-4704-b5ef-83e764377410","name":"a4a29a05-43f9-4704-b5ef-83e764377410","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"124a23f7-a447-4937-b0ef-b33f14aa3165","name":"124a23f7-a447-4937-b0ef-b33f14aa3165","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"48afe5ba-d0e9-4b59-911c-52fe52dd0f71","name":"48afe5ba-d0e9-4b59-911c-52fe52dd0f71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a538f0fe-0718-465c-8d5d-37d990e7b5bc","name":"a538f0fe-0718-465c-8d5d-37d990e7b5bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"403ccfa4-39d8-4aa5-9a10-3258234db2cd","name":"403ccfa4-39d8-4aa5-9a10-3258234db2cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -80,39 +80,17 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f015e082-24a8-4fdb-b228-8ad8432d7587","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bf956846-83c3-443d-b97e-3001c086f83e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac1092a9-c3bd-466b-b984-09c8fe6f4dec","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c5279ae5-1711-40e0-a168-e0b46267a2ff","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8eec818a-53a5-4284-ab15-a3f039e71554","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2748aaf2-3031-49e2-844f-ad2644c98fe9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9183448d-ee96-4db6-a5f0-bc9da392865c","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f8ac862e-652e-4ebe-926c-3a3ad1fba0c8","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2fa2791d-8ca9-4062-b78a-9a33758655f7","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9bf24cba-6aa9-497e-8cd8-433d34c82a78","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"01f087ec-3002-4577-ab5e-d253a65f0191","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ca57ff44-8ecf-4fee-b028-b2ccd4b84926","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4a29a05-43f9-4704-b5ef-83e764377410","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"25e212c7-1163-4433-874e-3c970b2d900e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"124a23f7-a447-4937-b0ef-b33f14aa3165","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"813e90f8-5ca9-474d-9989-5225f7c1c17b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48afe5ba-d0e9-4b59-911c-52fe52dd0f71","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"41961900-d49b-4213-91b4-8d39f9520c50","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a538f0fe-0718-465c-8d5d-37d990e7b5bc","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7499f36e-e06e-47f8-af61-fdf725232dc6","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"403ccfa4-39d8-4aa5-9a10-3258234db2cd","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fe83641e-84bc-4aee-9744-02cb2719cccd","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f015e082-24a8-4fdb-b228-8ad8432d7587","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bf956846-83c3-443d-b97e-3001c086f83e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac1092a9-c3bd-466b-b984-09c8fe6f4dec","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c5279ae5-1711-40e0-a168-e0b46267a2ff","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8eec818a-53a5-4284-ab15-a3f039e71554","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2748aaf2-3031-49e2-844f-ad2644c98fe9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9183448d-ee96-4db6-a5f0-bc9da392865c","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f8ac862e-652e-4ebe-926c-3a3ad1fba0c8","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2fa2791d-8ca9-4062-b78a-9a33758655f7","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9bf24cba-6aa9-497e-8cd8-433d34c82a78","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"01f087ec-3002-4577-ab5e-d253a65f0191","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ca57ff44-8ecf-4fee-b028-b2ccd4b84926","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4a29a05-43f9-4704-b5ef-83e764377410","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"25e212c7-1163-4433-874e-3c970b2d900e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"124a23f7-a447-4937-b0ef-b33f14aa3165","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"813e90f8-5ca9-474d-9989-5225f7c1c17b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"48afe5ba-d0e9-4b59-911c-52fe52dd0f71","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"41961900-d49b-4213-91b4-8d39f9520c50","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a538f0fe-0718-465c-8d5d-37d990e7b5bc","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7499f36e-e06e-47f8-af61-fdf725232dc6","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"403ccfa4-39d8-4aa5-9a10-3258234db2cd","path":"sprites/spr_russia_e1_death/spr_russia_e1_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fe83641e-84bc-4aee-9744-02cb2719cccd","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
