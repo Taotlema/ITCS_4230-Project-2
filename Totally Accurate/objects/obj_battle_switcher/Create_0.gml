@@ -5,3 +5,5 @@ original_room = noone
 enemy_object = noone  // Store the object type instead of instance ID
 enemy_x = 0  
 enemy_y = 0 
+
+global.return_room = room_previous;

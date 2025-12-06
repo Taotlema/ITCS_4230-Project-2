@@ -6,6 +6,9 @@ if(instance_exists(obj_battle_switcher)) {
     }
 }
 
+//play music
+audio_play_sound(sfx_win, 1, true)
+
 // Create confetti particle system
 confetti_system = part_system_create()
 part_system_depth(confetti_system, -1000)

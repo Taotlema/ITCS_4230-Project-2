@@ -8,8 +8,8 @@
   "name":"overworld_music",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Audio",
+    "path":"folders/Objects/Audio.yy",
   },
   "parentObjectId":null,
   "persistent":false,
