@@ -1,11 +1,3 @@
-// Destroy the enemy when entering win screen
-if(instance_exists(obj_battle_switcher)) {
-    if(variable_instance_exists(obj_battle_switcher, "enemy_object")) {
-        // The enemy should already be destroyed, but let's make sure
-        show_debug_message("Enemy object type: " + object_get_name(obj_battle_switcher.enemy_object))
-    }
-}
-
 //play music
 audio_play_sound(sfx_win, 1, true)
 

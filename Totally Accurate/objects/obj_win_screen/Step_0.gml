@@ -3,27 +3,17 @@ if(keyboard_check_pressed(vk_space)) {
         part_system_destroy(confetti_system)
     }
     
-    // DEBUG - Check switcher before leaving
+    // Simple room return - just go to original room (will reset everything)
     if(instance_exists(obj_battle_switcher)) {
-        show_debug_message("WIN SCREEN: Switcher exists")
-        show_debug_message("WIN SCREEN: original_room = " + room_get_name(obj_battle_switcher.original_room))
-        show_debug_message("WIN SCREEN: player_x = " + string(obj_battle_switcher.player_x))
-        show_debug_message("WIN SCREEN: player_y = " + string(obj_battle_switcher.player_y))
-    } else {
-        show_debug_message("WIN SCREEN: NO SWITCHER EXISTS!")
-    }
-    
-    // Safe room return with validation
-    if(instance_exists(obj_battle_switcher)) {
-        var _target_room = obj_battle_switcher.original_room
-        
-        if(room_exists(_target_room)) {
-            room_goto(_target_room)
-        } else {
-            room_goto(rm_main)
-        }
+        room_goto(obj_battle_switcher.original_room)
     } else {
         room_goto(rm_main)
     }
+}
+
+// Spawn confetti continuously from top
+if(part_system_exists(confetti_system) && random(1) < 0.3) {
+    var _x = random_range(0, room_width)
+    part_particles_create(confetti_system, _x, -10, confetti_particle, 2)
 }
 
