@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_russia_tileset",
   "bboxMode":0,
   "bbox_bottom":699,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"98ee86ae-7515-444b-b261-445e030454fe","name":"98ee86ae-7515-444b-b261-445e030454fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"98ee86ae-7515-444b-b261-445e030454fe","name":"98ee86ae-7515-444b-b261-445e030454fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_china_battle",
   "bboxMode":0,
   "bbox_bottom":539,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"97826f9d-a014-4706-ab95-16ee080f68d6","name":"97826f9d-a014-4706-ab95-16ee080f68d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"97826f9d-a014-4706-ab95-16ee080f68d6","name":"97826f9d-a014-4706-ab95-16ee080f68d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
