@@ -3,6 +3,10 @@ var _switcher = instance_create_depth(0,0,0, obj_battle_switcher)
 _switcher.party_data = party
 _switcher.party_charge_data = party_charge
 
+// Store player position before battle
+_switcher.player_x = x
+_switcher.player_y = y
+
 // Create two separate enemy data structs
 _switcher.enemy_data = [
     {
@@ -28,7 +32,6 @@ _switcher.enemy_data = [
 // Determine which battle room to go to based on current room
 var _battle_room = rm_battle  // Default
 var _original_room = room  // Store current room
-show_debug_message("Going from " + room_get_name(_original_room) + " to " + room_get_name(_battle_room))
 
 if(room == rm_russia) {
     _battle_room = rm_battle_russia

@@ -2,24 +2,30 @@
   "$GMSprite":"v2",
   "%Name":"spr_china_e1_attack",
   "bboxMode":0,
-  "bbox_bottom":0,
-  "bbox_left":0,
-  "bbox_right":0,
-  "bbox_top":0,
+  "bbox_bottom":115,
+  "bbox_left":6,
+  "bbox_right":107,
+  "bbox_top":22,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a597245c-e036-4055-8477-69c4e4206cf6","name":"a597245c-e036-4055-8477-69c4e4206cf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b62cbedc-105e-491c-85a0-8f3fc73f7b24","name":"b62cbedc-105e-491c-85a0-8f3fc73f7b24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"482dbb69-4896-42f0-9d49-dbb66e5cfcd7","name":"482dbb69-4896-42f0-9d49-dbb66e5cfcd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f8b804e8-0e74-4c60-a667-d1c3cf5238ee","name":"f8b804e8-0e74-4c60-a667-d1c3cf5238ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea5bf473-7888-4d41-8030-162c4fb06ca7","name":"ea5bf473-7888-4d41-8030-162c4fb06ca7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"326659fb-a576-4e82-b0dd-94067f2b81db","name":"326659fb-a576-4e82-b0dd-94067f2b81db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2a22d2dc-ecdc-4f7d-9813-5816a6c04429","name":"2a22d2dc-ecdc-4f7d-9813-5816a6c04429","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2e569b15-bbac-414b-8fac-097a166cafa6","name":"2e569b15-bbac-414b-8fac-097a166cafa6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6ebba234-cb28-4d1c-b406-1303a89cbced","blendMode":0,"displayName":"default","isLocked":false,"name":"6ebba234-cb28-4d1c-b406-1303a89cbced","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"89e5b3bc-b6f2-4f7a-bc9e-61a1ff35fa58","blendMode":0,"displayName":"default","isLocked":false,"name":"89e5b3bc-b6f2-4f7a-bc9e-61a1ff35fa58","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_china_e1_attack",
   "nineSlice":null,
@@ -49,7 +55,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":7.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +65,7 @@
     },
     "name":"spr_china_e1_attack",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":7.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,7 +76,27 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a597245c-e036-4055-8477-69c4e4206cf6","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2103f320-bebf-4fa6-a8a2-d92904ef3e5b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b62cbedc-105e-491c-85a0-8f3fc73f7b24","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9f98124e-5cb0-4a3e-b616-81bfba3615d3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"482dbb69-4896-42f0-9d49-dbb66e5cfcd7","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e9e709d1-1a91-4b47-94eb-93e38ed4993d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8b804e8-0e74-4c60-a667-d1c3cf5238ee","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dd1fb7ba-1867-46f6-8796-8325cc5dc14b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea5bf473-7888-4d41-8030-162c4fb06ca7","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"117eebb0-a689-4e1b-8d81-c999c67ad050","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"326659fb-a576-4e82-b0dd-94067f2b81db","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bc7b203f-80d0-4ec8-8495-5e814a5750da","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a22d2dc-ecdc-4f7d-9813-5816a6c04429","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"da276c1b-ea91-43af-8a21-cea50157c7c6","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2e569b15-bbac-414b-8fac-097a166cafa6","path":"sprites/spr_china_e1_attack/spr_china_e1_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f67d0c2b-73b8-4591-abc8-df7eb28c3c13","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +112,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":128,
 }

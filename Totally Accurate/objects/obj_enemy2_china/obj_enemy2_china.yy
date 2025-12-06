@@ -36,7 +36,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_china_e2_idle",
+    "path":"sprites/spr_china_e2_idle/spr_china_e2_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

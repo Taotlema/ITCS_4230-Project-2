@@ -1,8 +1,8 @@
 // Destroy the enemy when entering win screen
 if(instance_exists(obj_battle_switcher)) {
-    // Check if enemy_to_destroy variable exists and enemy instance exists
-    if(variable_instance_exists(obj_battle_switcher, "enemy_to_destroy") && instance_exists(obj_battle_switcher.enemy_to_destroy)) {
-        instance_destroy(obj_battle_switcher.enemy_to_destroy)
+    if(variable_instance_exists(obj_battle_switcher, "enemy_object")) {
+        // The enemy should already be destroyed, but let's make sure
+        show_debug_message("Enemy object type: " + object_get_name(obj_battle_switcher.enemy_object))
     }
 }
 

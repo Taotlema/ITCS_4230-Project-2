@@ -36,7 +36,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_russia_e1_idle",
+    "path":"sprites/spr_russia_e1_idle/spr_russia_e1_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

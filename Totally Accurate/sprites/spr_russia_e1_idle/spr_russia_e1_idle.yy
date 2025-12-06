@@ -2,24 +2,28 @@
   "$GMSprite":"v2",
   "%Name":"spr_russia_e1_idle",
   "bboxMode":0,
-  "bbox_bottom":0,
-  "bbox_left":0,
-  "bbox_right":0,
-  "bbox_top":0,
+  "bbox_bottom":114,
+  "bbox_left":28,
+  "bbox_right":84,
+  "bbox_top":29,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"317c32a7-d888-4033-bf60-9c1ac2a5ad43","name":"317c32a7-d888-4033-bf60-9c1ac2a5ad43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f365baac-d6cd-4541-a7ed-ae995cc5f165","name":"f365baac-d6cd-4541-a7ed-ae995cc5f165","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc473595-2e75-4bc9-af0b-c8687d873d1d","name":"fc473595-2e75-4bc9-af0b-c8687d873d1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06657a5c-cdfe-4741-9475-1e04d7aa0a1d","name":"06657a5c-cdfe-4741-9475-1e04d7aa0a1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59425b0d-1811-488a-bf2b-2d8bee1f0026","name":"59425b0d-1811-488a-bf2b-2d8bee1f0026","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"57a093b3-af75-4b2b-8c09-b528361b1128","blendMode":0,"displayName":"default","isLocked":false,"name":"57a093b3-af75-4b2b-8c09-b528361b1128","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"52e2c178-10a8-4511-b1f5-3cd0641e873f","blendMode":0,"displayName":"default","isLocked":false,"name":"52e2c178-10a8-4511-b1f5-3cd0641e873f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_russia_e1_idle",
   "nineSlice":null,
@@ -49,7 +53,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":5.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +63,7 @@
     },
     "name":"spr_russia_e1_idle",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":7.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,7 +74,21 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"153dd1da-8bb3-4dbc-80ba-5ec58e42fc24","path":"sprites/spr_russia_e1_idle/spr_russia_e1_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e6b32489-f1a9-45dc-9645-41047feb56c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"317c32a7-d888-4033-bf60-9c1ac2a5ad43","path":"sprites/spr_russia_e1_idle/spr_russia_e1_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2b58d77a-bf42-4cd9-8e5a-1588531656c1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f365baac-d6cd-4541-a7ed-ae995cc5f165","path":"sprites/spr_russia_e1_idle/spr_russia_e1_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8760b062-597b-48ed-ab67-4ae66d883f54","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fc473595-2e75-4bc9-af0b-c8687d873d1d","path":"sprites/spr_russia_e1_idle/spr_russia_e1_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c0f3f252-9e19-438d-8d89-a7ccf7cc692f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06657a5c-cdfe-4741-9475-1e04d7aa0a1d","path":"sprites/spr_russia_e1_idle/spr_russia_e1_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"079712af-7983-4b33-897e-0c06e9008469","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59425b0d-1811-488a-bf2b-2d8bee1f0026","path":"sprites/spr_russia_e1_idle/spr_russia_e1_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"24b8dedd-4f16-4e9a-a06d-3626f02b9b64","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +104,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":128,
 }

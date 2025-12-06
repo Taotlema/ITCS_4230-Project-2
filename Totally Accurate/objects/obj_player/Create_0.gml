@@ -1,5 +1,4 @@
 move_speed = 1.5
-tilemap = layer_tilemap_get_id("Tiles_Col")
 hp = 10
 hp_total = hp
 damage = 1
@@ -88,6 +87,8 @@ party = [
     }
 ]
 
-if(view_enabled) {
-    camera_set_view_pos(view_camera[0], x - 320, y - 180)
+// At the very end of Create Event
+if(instance_exists(obj_battle_switcher)) {
+    show_debug_message("Switcher exists! Original room: " + room_get_name(obj_battle_switcher.original_room))
+    show_debug_message("Player position: " + string(obj_battle_switcher.player_x) + ", " + string(obj_battle_switcher.player_y))
 }
