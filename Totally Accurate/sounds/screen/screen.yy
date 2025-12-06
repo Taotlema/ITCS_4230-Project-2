@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"battle",
+  "%Name":"screen",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":120.02402,
+  "duration":38.088005,
   "exportDir":"",
-  "name":"battle",
+  "name":"screen",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"battle.mp3",
+  "soundFile":"screen.mp3",
   "volume":1.0,
 }

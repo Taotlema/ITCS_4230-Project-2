@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Totally Accurate",
   "resources":[
@@ -108,8 +108,12 @@
     {"id":{"name":"dialogue","path":"scripts/dialogue/dialogue.yy",},},
     {"id":{"name":"shd_flash_white","path":"shaders/shd_flash_white/shd_flash_white.yy",},},
     {"id":{"name":"battle","path":"sounds/battle/battle.yy",},},
+    {"id":{"name":"boss","path":"sounds/boss/boss.yy",},},
     {"id":{"name":"overworld","path":"sounds/overworld/overworld.yy",},},
+    {"id":{"name":"screen","path":"sounds/screen/screen.yy",},},
     {"id":{"name":"sfx_click","path":"sounds/sfx_click/sfx_click.yy",},},
+    {"id":{"name":"sfx_fail","path":"sounds/sfx_fail/sfx_fail.yy",},},
+    {"id":{"name":"sfx_win","path":"sounds/sfx_win/sfx_win.yy",},},
     {"id":{"name":"spr_1","path":"sprites/spr_1/spr_1.yy",},},
     {"id":{"name":"spr_2","path":"sprites/spr_2/spr_2.yy",},},
     {"id":{"name":"spr_3","path":"sprites/spr_3/spr_3.yy",},},

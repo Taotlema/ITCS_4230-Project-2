@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"battle",
+  "%Name":"sfx_fail",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":120.02402,
+  "duration":3.3436735,
   "exportDir":"",
-  "name":"battle",
+  "name":"sfx_fail",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"battle.mp3",
+  "soundFile":"sfx_fail.mp3",
   "volume":1.0,
 }
