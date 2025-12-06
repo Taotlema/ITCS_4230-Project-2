@@ -1,1 +1,4 @@
-vspeed = 0
+x -= hspeed
+y -= vspeed
+hspeed = -hspeed
+vspeed = -vspeed
