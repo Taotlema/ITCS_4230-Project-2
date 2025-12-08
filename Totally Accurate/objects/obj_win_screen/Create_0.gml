@@ -1,5 +1,5 @@
 //play music
-audio_play_sound(sfx_win, 1, true)
+audio_play_sound(sfx_win, 1, false)
 
 // Create confetti particle system
 confetti_system = part_system_create()
